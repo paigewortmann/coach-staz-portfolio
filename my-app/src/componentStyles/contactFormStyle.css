@@ -1,8 +1,36 @@
-.formTitle {
-    color: #ea1d6f;
-    font-size: 12px;
+* {
+    font-family:'Montserrat', sans-serif;
 }
 
-.form {
+.box {
+    width: 60%;
+    height: 60%;
+}
 
+.formTitle {
+    color: #ea1d6f;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.field {
+    margin: 10px;
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.box {
+    background-color: #161616;
+    padding: 5%;
+}
+
+label {
+    color: #ea1d6f;
 }

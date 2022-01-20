@@ -23,17 +23,28 @@ function contactForm() {
     };
 
     return (
-        <div>
+        <div className='box'>
             <h1 className='formTitle'>Send an Email</h1>
             <form onSubmit={sendEmail} className='form'>
-                <label>Name</label>
-                <input type="text" name="name" />
-                <label>Email</label>
-                <input type="email" name="email" />
-                <label>Subject</label>
-                <input type="email" name="subject" />
-                <label>Message</label>
-                <textarea name="message" />
+                <section className='input-fields'>
+                    <div>
+                        <input type="text" name="name" placeholder='Your Name' className='field'/>
+                    </div>
+
+                    <div>
+                        <input type="email" name="email" placeholder='Your Email' className='field'/>
+                    </div>
+
+                    <div>
+                        <input type="email" name="subject" placeholder='Email Subject' className='field'/>
+                    </div>
+
+                    <div>
+                        <textarea name="message" placeholder='Your Message' className='field'/>
+                    </div>
+
+                </section>
+
                 <input type="submit" value="Send" />
             </form>
         </div>
