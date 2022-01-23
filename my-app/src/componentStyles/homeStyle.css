@@ -1,0 +1,12 @@
+.logo {
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(1.2)
+}
+
+.logo-background {
+    background-color: #161616;
+}
