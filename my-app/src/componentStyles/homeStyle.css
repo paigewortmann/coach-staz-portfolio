@@ -4,9 +4,10 @@
 }
 
 .logo:hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 .logo-background {
     background-color: #161616;
+    padding: 50px;
 }

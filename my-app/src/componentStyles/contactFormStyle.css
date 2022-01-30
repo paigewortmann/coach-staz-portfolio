@@ -30,9 +30,12 @@
     border-bottom-color: #ddd;
 }
 
+
+
 .box {
     background-color: #161616;
     padding: 5%;
+    
     /* border-radius: 10px; */
 }
 
