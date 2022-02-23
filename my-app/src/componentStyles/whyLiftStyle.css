@@ -1,3 +1,14 @@
-main {
-    background-color: gray;
+.whyLift {
+    background: linear-gradient(#484848, #606060);
 }
+
+.title {
+    margin: 0%;
+}
+
+.desc {
+    margin: 0%;
+    padding: 10px 0px 15px 0px;
+}
+
+
