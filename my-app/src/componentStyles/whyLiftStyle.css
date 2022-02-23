@@ -2,8 +2,9 @@
     background: linear-gradient(#484848, #606060);
 }
 
-.title {
+.whyTitle {
     margin: 0%;
+    padding-top: 15px;
 }
 
 .desc {

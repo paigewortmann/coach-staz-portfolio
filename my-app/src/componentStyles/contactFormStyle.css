@@ -3,8 +3,11 @@
 }
 
 .box {
-    width: 60%;
+    width: auto;
     height: 60%;
+    background-color: #161616;
+    padding: 50px;
+    margin: auto;
 }
 
 .formTitle {
@@ -30,14 +33,6 @@
     border-bottom-color: #ddd;
 }
 
-
-
-.box {
-    background-color: #161616;
-    padding: 5%;
-    
-    /* border-radius: 10px; */
-}
 
 label {
     color: #ea1d6f;
